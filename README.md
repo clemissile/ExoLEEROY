@@ -51,7 +51,9 @@ Courriel: info@leeroy.ca
 
 -   [ ] Finir le component SubscriptionForm VueJS.
 -   [ ] Empêcher la soumission du formulaire si le champs email est invalide.
--   [ ] Empêcher le rechargement de la page à la soumission du formulaire
+-   [ ] Empêcher le rechargement de la page à la soumission du formulaire.
+-   [ ] La fonction `subscribe()` doit uniquement s'executer lorsque les 2 conditions précédentes sont remplies.
+-   [ ] La fonction `subscribe()` doit contenir un `console.log()` qui loggue un message de succès et l'email de l'utilisateur.
 
 ### Rendu final
 
