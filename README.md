@@ -55,19 +55,19 @@ Pour démarrer le projet en local, executer les commandes suivantes dans le doss
 
 Version Desktop
 
-![Version Desktop](maquettes/Desktop.png 'Version Desktop')
+![Version Desktop](Maquettes/Desktop.png 'Version Desktop')
 
 ---
 
 Version Tablet
 
-![Version Tablet](maquettes/Tablet.png 'Version Tablet')
+![Version Tablet](Maquettes/Tablet.png 'Version Tablet')
 
 ---
 
 Version Mobile
 
-![Version Mobile](maquettes/Mobile.png 'Version Mobile')
+![Version Mobile](Maquettes/Mobile.png 'Version Mobile')
 
 ---
 
