@@ -1,0 +1,26 @@
+{
+    "name": "leeroy-footer-exercice",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": {
+        "name": "Aurélien Zimmermann",
+        "email": "aurelien@leeroy.ca"
+    },
+    "devDependencies": {
+        "@vue/component-compiler-utils": "^3.0.2",
+        "cssnano": "^4.1.10",
+        "rimraf": "^3.0.0",
+        "sass": "^1.23.3",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "scripts": {
+        "start": "parcel index.html --open",
+        "build": "rimraf dist/ && parcel build index.html --public-url . --no-cache --no-minify"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.11.2",
+        "bootstrap": "^4.3.1",
+        "vue": "^2.6.10",
+        "vue-hot-reload-api": "^2.3.4"
+    }
+}
