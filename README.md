@@ -23,7 +23,7 @@ Un serveur local va se lancer à l'adresse: http://localhost:1234
 -   `berry: #871262`
 -   `text: #333f48`
 
-> La maquette est en Avenir mais pour l'exercice, utliser "Nunito" de Google Fonts.
+> La maquette est en Avenir mais pour l'exercice, utiliser "Nunito" de Google Fonts.
 
 Pour l'adresse, utiliser celle-ci
 
@@ -31,14 +31,14 @@ Pour l'adresse, utiliser celle-ci
 1223, rue De La Gauchetière Ouest, bureau 2300
 Montréal, Québec, Canada, H3B 6W6
 
-Téléphone : 514.956.2536
-Télécopieur :  514.252.6565
+Téléphone: 514.956.2536
+Télécopieur: 514.252.6565
 Courriel: info@leeroy.ca
 ```
 
 ### Intégrer le HTML et CSS
 
-> Les maquettes sont fournis dans le dossier Maquettes, 3 formats sont disponibles Desktop, Tablet et Mobile
+> Les maquettes sont fournis dans le dossier Maquettes, 3 formats sont disponibles Desktop, Tablet et Mobile.
 
 -   [ ] Intégrer le HTML.
 -   [ ] Intégrer le SCSS.
@@ -50,8 +50,8 @@ Courriel: info@leeroy.ca
 ### VueJS
 
 -   [ ] Finir le component SubscriptionForm VueJS.
--   [ ] Empécher la soumission du formulaire si le champs email est invalide.
--   [ ] Empécher le rechargement de la page à la soumission du formulaire
+-   [ ] Empêcher la soumission du formulaire si le champs email est invalide.
+-   [ ] Empêcher le rechargement de la page à la soumission du formulaire
 
 ### Rendu final
 
