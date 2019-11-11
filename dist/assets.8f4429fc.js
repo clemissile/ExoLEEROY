@@ -8542,7 +8542,7 @@ if (inBrowser) {
 
 var _default = Vue;
 exports.default = _default;
-},{}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{}],"../../../../AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -8574,7 +8574,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -8609,7 +8609,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"node_modules/vue-hot-reload-api/dist/index.js":[function(require,module,exports) {
+},{"./bundle-url":"../../../../AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"node_modules/vue-hot-reload-api/dist/index.js":[function(require,module,exports) {
 var Vue // late bind
 var version
 var map = Object.create(null)
@@ -8906,48 +8906,77 @@ var _default = {
     };
   },
   methods: {
-    subscribe: function subscribe(e) {}
+    subscribe: function subscribe(e) {
+      this.email ? console.log("Inscprition réussie ! Email : ", this.email) : "";
+    }
   }
 };
 exports.default = _default;
-        var $3b62cd = exports.default || module.exports;
+        var $841d12 = exports.default || module.exports;
       
-      if (typeof $3b62cd === 'function') {
-        $3b62cd = $3b62cd.options;
+      if (typeof $841d12 === 'function') {
+        $841d12 = $841d12.options;
       }
     
         /* template */
-        Object.assign($3b62cd, (function () {
+        Object.assign($841d12, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("form", { on: { submit: _vm.subscribe } }, [
-    _c("input", {
-      directives: [
-        {
-          name: "model",
-          rawName: "v-model",
-          value: _vm.email,
-          expression: "email"
-        }
-      ],
-      attrs: { type: "email", id: "email", name: "email" },
-      domProps: { value: _vm.email },
+  return _c(
+    "form",
+    {
       on: {
-        input: function($event) {
-          if ($event.target.composing) {
-            return
-          }
-          _vm.email = $event.target.value
+        submit: function($event) {
+          $event.preventDefault()
+          return _vm.subscribe($event)
         }
       }
-    }),
-    _vm._v(" "),
-    _c("button", { attrs: { type: "submit" } }, [_vm._v("Submit")])
-  ])
+    },
+    [
+      _c("input", {
+        directives: [
+          {
+            name: "model",
+            rawName: "v-model",
+            value: _vm.email,
+            expression: "email"
+          }
+        ],
+        staticClass: "m-0 p-2",
+        attrs: {
+          type: "email",
+          id: "email",
+          name: "email",
+          placeholder: "Votre Courriel"
+        },
+        domProps: { value: _vm.email },
+        on: {
+          input: function($event) {
+            if ($event.target.composing) {
+              return
+            }
+            _vm.email = $event.target.value
+          }
+        }
+      }),
+      _vm._v(" "),
+      _vm._m(0)
+    ]
+  )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("button", { staticClass: "p-2", attrs: { type: "submit" } }, [
+      _vm._v("S'inscrire "),
+      _c("i", { staticClass: "fas fa-plus" })
+    ])
+  }
+]
 render._withStripped = true
 
           return {
@@ -8967,9 +8996,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$3b62cd', $3b62cd);
+            api.createRecord('$841d12', $841d12);
           } else {
-            api.reload('$3b62cd', $3b62cd);
+            api.reload('$841d12', $841d12);
           }
         }
 
@@ -8980,7 +9009,7 @@ render._withStripped = true
       
       }
     })();
-},{"_css_loader":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"assets/index.js":[function(require,module,exports) {
+},{"C:\\Users\\Clement\\Desktop\\PROJETS\\Exo LEEROY\\footer-html-vuejs\\assets\\images\\footer.svg":[["footer.ae5719dc.svg","assets/images/footer.svg"],"assets/images/footer.svg"],"_css_loader":"../../../../AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"assets/index.js":[function(require,module,exports) {
 "use strict";
 
 var _vue = _interopRequireDefault(require("vue"));
@@ -8995,7 +9024,7 @@ new _vue.default({
     return h(_SubscriptionForm.default);
   }
 });
-},{"vue":"node_modules/vue/dist/vue.runtime.esm.js","./components/SubscriptionForm":"assets/components/SubscriptionForm.vue"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"vue":"node_modules/vue/dist/vue.runtime.esm.js","./components/SubscriptionForm":"assets/components/SubscriptionForm.vue"}],"../../../../AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -9023,7 +9052,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59041" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57437" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -9199,5 +9228,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","assets/index.js"], null)
+},{}]},{},["../../../../AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","assets/index.js"], null)
 //# sourceMappingURL=/assets.8f4429fc.js.map

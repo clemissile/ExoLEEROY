@@ -5,6 +5,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9654,6 +9655,28 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+footer {
+  font-family: "Nunito", sans-serif;
+  background-color: #f1f1f1;
+  color: #333f48;
+}
+
+a {
+  color: #333f48;
+}
+a:hover {
+  color: #871262;
+  text-decoration: none;
+}
+
+.row:first-of-type {
+  font-size: large;
+}
+
+#foot-end {
+  background-image: url("/footer.ae5719dc.svg");
+  height: 106px;
 }
 
 /*# sourceMappingURL=/style.d7ce259d.css.map */
