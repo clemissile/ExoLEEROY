@@ -23,29 +23,29 @@ Pour démarrer le projet en local, executer les commandes suivantes dans le doss
 
 > Les maquettes sont fournis dans le dossier Maquettes, 3 formats sont disponibles Desktop, Tablet et Mobile.
 
--   [ ] Intégrer le HTML.
--   [ ] Intégrer le SCSS.
--   [ ] Utiliser le/les images du dossier /assets/images.
--   [ ] Intégrer l'adresse fournie.
--   [ ] Intégrer les icons sociaux avec des icons fontawesome (Fontawesome est déjà disponible dans le projet) et des liens href autour de chacun d'eux.
--   [ ] Respecter le responsive Desktop / Tablet / Mobile (Bootstrap est déjà disponible dans le projet).
+-   [X] Intégrer le HTML.
+-   [X] Intégrer le SCSS.
+-   [X] Utiliser le/les images du dossier /assets/images.
+-   [X] Intégrer l'adresse fournie.
+-   [X] Intégrer les icons sociaux avec des icons fontawesome (Fontawesome est déjà disponible dans le projet) et des liens href autour de chacun d'eux.
+-   [X] Respecter le responsive Desktop / Tablet / Mobile (Bootstrap est déjà disponible dans le projet).
 
     ***
 
 ### VueJS
 
--   [ ] Finir le component SubscriptionForm VueJS.
--   [ ] Empêcher la soumission du formulaire si le champs email est invalide.
--   [ ] Empêcher le rechargement de la page à la soumission du formulaire.
--   [ ] La fonction `subscribe()` doit uniquement s'executer lorsque les 2 conditions précédentes sont remplies.
--   [ ] La fonction `subscribe()` doit contenir un `console.log()` qui loggue un message de succès et l'email de l'utilisateur.
+-   [X] Finir le component SubscriptionForm VueJS.
+-   [X] Empêcher la soumission du formulaire si le champs email est invalide.
+-   [X] Empêcher le rechargement de la page à la soumission du formulaire.
+-   [X] La fonction `subscribe()` doit uniquement s'executer lorsque les 2 conditions précédentes sont remplies.
+-   [X] La fonction `subscribe()` doit contenir un `console.log()` qui loggue un message de succès et l'email de l'utilisateur.
 
     ***
 
 ### Rendu final
 
--   [ ] Builder le projet grâce à la commande `yarn build`
--   [ ] Déposer le projet sur un git et me renvoyer le lien.
+-   [X] Builder le projet grâce à la commande `yarn build`
+-   [X] Déposer le projet sur un git et me renvoyer le lien.
 
 ---
 
